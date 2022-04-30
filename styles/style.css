@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap");
+
+body {
+    background-color:whitesmoke;
+  
+  }
+
+  H1{
+    color:white;
+  }
+
+.card{
+  background-color:white;
+  margin-top:18mm;
+}
+
+footer{
+  margin-top:8mm;
+}

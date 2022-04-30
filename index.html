@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>juliettEggs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+<meta charset="UTF-8">
+<title>Juliett</title>
+
+<!-- Collapsible Navbar -->
+<nav class="navbar bg-success navbar-dark">
+  <div class="container-fluid">
+   <h1>Juliett's Eggs</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">REPO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NU Checker</a>
+        </li>   
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- As it is a simple thing, while uninspired, three cards will do the trick to show case the information I need. -->
+<div class="row">
+  <div class="col-sm-4 mx-auto">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">The Egg Special</h5>
+        <!-- a simple image -->
+       <div id="egg-special"><img id="egg-special" alt="no one eats like gaston" src="./img/egg.png" height="400px" width="400px"></div>
+       <button onclick="disappearingEgg()">Click me, I hide!</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 mx-auto">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">The Problem</h5>
+        <p class="card-text">On the left, you will see bad UI from Doordash. On the right, you can unveil the very, and I mean very, simple fix from myself.</p>
+      </div>
+    </div>
+  </div>
+    <!-- A drop down that allows you to choose number of eggs. -->
+    <div class="col-sm-4">
+      <div class="card">
+      <div class="form-group">
+        <label for="eggsolution">How many eggs would you like to add on? $1.00 per extra egg.</label>
+        <input type="number" id="eggyno" min="1" max="15">
+        <button id="submitButton" class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        </div>
+      </div>
+</div>
+</body>
+
+<footer class="footer">
+  <div class="container">
+    <class="text-bold">&copy; Ashe Kennemer 2022.</span>
+  </div>
+</footer>
+  
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./scripts/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
